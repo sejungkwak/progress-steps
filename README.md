@@ -7,7 +7,6 @@ project notes
 1. HTML<br />
     4 divs => make them circles<br />
     numbers inside circles<br />
-    hr connects circles<br />
     2 buttons: Prev & Next<br />
 2. CSS<br />
     circles active<br />
