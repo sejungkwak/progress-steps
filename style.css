@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ravi Prakash', cursive;
+    overflow: hidden;
+    margin: 0;
+    background-color: #fcfaff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.prgress {
+    margin-bottom: 5%;
+}
+
+.circles {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 36px;
+    border: 3px solid rgb(212, 188, 216);
+    border-radius: 50%;
+    background-color: #fff;
+    color: #7d26a6;
+    width: 40px;
+    height: 40px;
+    margin: 30px;
+}
+
+
+.circles.active {
+    border-color: #7d26a6;
+    transition: border-color 1500ms ease-in;
+}
+
+.bar1:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color:rgb(212, 188, 216);
+    top: 15px;
+    left: 37px;
+    width: 65px;
+    height: 5px;
+}
+
+.bar2:after {
+    background-color: #7d26a6; 
+    transition: background-color 1000ms ease;
+}
+
+.title {
+    color: #7d26a6;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn {
+    background: #7D26A6;
+    font-family: 'Ravi Prakash', cursive;
+    border-radius: 10px;
+    border: 0;
+    height: 40px;
+    line-height: 20px;
+    color: #fcfaff;
+    width: 100px;
+    font-size: 1.5rem;
+    padding: 12px;
+    text-shadow: 1px 1px 20px #000000;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 15px;
+}
+ 
+.btn:hover {
+    background: #853DB3;
+    border-radius: 10px;
+}
+
+.btn.disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
