@@ -15,3 +15,5 @@ project notes
 3. JavaScript<br />
     click eventListener<br />
     click button => next div circle + :after become active<br />
+
+challenge by Brad Traversy & Florin Pop on Udemy "50 Project in 50 Days"<br />
