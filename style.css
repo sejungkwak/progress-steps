@@ -40,7 +40,7 @@ body {
     transition: border-color 1500ms ease-in;
 }
 
-.bar1:after {
+.bar1::after {
     content: "";
     display: inline-block;
     position: absolute;
@@ -51,7 +51,7 @@ body {
     height: 5px;
 }
 
-.bar2:after {
+.bar2::after {
     background-color: #7d26a6; 
     transition: background-color 1000ms ease;
 }
